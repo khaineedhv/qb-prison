@@ -40,7 +40,7 @@ local function CreateCellsBlip()
 	SetBlipAsShortRange(TimeBlip, true)
 	SetBlipColour(TimeBlip, 4)
 	BeginTextCommandSetBlipName("STRING")
-	AddTextComponentSubstringPlayerName("Time check")
+	AddTextComponentSubstringPlayerName("Kiểm Tra Hạn Tù")
 	EndTextCommandSetBlipName(TimeBlip)
 
 	if ShopBlip then
@@ -54,7 +54,7 @@ local function CreateCellsBlip()
 	SetBlipAsShortRange(ShopBlip, true)
 	SetBlipColour(ShopBlip, 0)
 	BeginTextCommandSetBlipName("STRING")
-	AddTextComponentSubstringPlayerName("Canteen")
+	AddTextComponentSubstringPlayerName("Căng-tin")
 	EndTextCommandSetBlipName(ShopBlip)
 end
 
